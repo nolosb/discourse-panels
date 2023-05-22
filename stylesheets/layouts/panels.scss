@@ -1,0 +1,42 @@
+#list-area,
+.users-directory,
+.contents.body-page,
+.container .user-main,
+#main-chat-outlet,
+.docs {
+  @include panel;
+}
+
+.search-container {
+  @include panel;
+  .search-header,
+  .search-bar,
+  .search-filters,
+  .search-filters .search-advanced-filters {
+    background: transparent;
+  }
+}
+
+// Body classes
+.admin-interface,
+.badges-page,
+.groups-page {
+  #main-outlet {
+    // Render panels on sub-container, else notification banners are within the panel
+    .container:not(#main-container) {
+      @include panel;
+    }
+  }
+}
+// Topics
+.archetype-regular {
+  #main-outlet {
+    @include panel;
+  }
+}
+
+.welcome-cta {
+  @include panel;
+  box-shadow: none;
+  margin-bottom: $spacing-1;
+}

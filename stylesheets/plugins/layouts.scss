@@ -1,0 +1,13 @@
+body:not(.layouts-left-full) {
+  .main-content.right-sidebar {
+    margin-right: 120px;
+  }
+  .sidebar.right .layouts-sidebar-container {
+    margin-top: 2rem;
+    .sidebar-content {
+        .widget-container {
+            @include panel;
+        }
+    }
+  }
+}

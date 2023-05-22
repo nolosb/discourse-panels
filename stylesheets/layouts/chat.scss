@@ -1,0 +1,6 @@
+.has-full-page-chat:not(.discourse-sidebar) {
+    --max-chat-width: unset;
+    .chat-messages-container {
+        background-color: var(--secondary);
+    }
+  }

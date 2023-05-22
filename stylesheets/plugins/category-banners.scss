@@ -1,0 +1,18 @@
+.category-header-widget {
+  .category-title-header {
+    @include panel;
+    background-color: var(--secondary) !important;
+    justify-content: left;
+    text-align: left;
+    .category-title-contents {
+      color: var(--primary);
+      max-width: unset;
+      padding: 0;
+      .category-title {
+        justify-content: left;
+      }
+      .category-title-description {
+      }
+    }
+  }
+}
