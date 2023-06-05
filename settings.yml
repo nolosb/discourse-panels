@@ -1,0 +1,13 @@
+body_background:
+  default: "var(--primary-50)"
+panel_background:
+  default: "var(--secondary)"
+panel_border:
+  default: "1px solid var(--primary-200)"
+panel_radius:
+  type: integer
+  default: 10
+panel_padding:
+  default: "1rem 2rem"
+panel_box_shadow:
+  default: "none"

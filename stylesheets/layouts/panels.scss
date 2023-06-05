@@ -30,13 +30,15 @@
 }
 // Topics
 .archetype-regular {
-  #main-outlet {
+  #main-outlet-wrapper #main-outlet {
     @include panel;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 .welcome-cta {
   @include panel;
   box-shadow: none;
-  margin-bottom: $spacing-1;
+  margin-bottom: 1rem;
 }
