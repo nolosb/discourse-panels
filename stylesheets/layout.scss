@@ -2,7 +2,6 @@
 .users-directory,
 .contents.body-page,
 .container .user-main,
-#main-chat-outlet,
 .docs {
   @include panel;
 }
@@ -41,4 +40,26 @@
   @include panel;
   box-shadow: none;
   margin-bottom: 1rem;
+}
+
+//Chat
+.chat-channel {
+  //adjust core declaration to make space for panel; just 8rem now, needs variable
+  height: calc(
+    var(--chat-vh, 1vh) * 100 - var(--header-offset, 0px) -
+      var(--chat-draft-header-height, 0px) -
+      var(--chat-direct-message-creator-height, 0px) -
+      var(--composer-height, 0px) - 8rem
+  );
+}
+.has-full-page-chat:not(.discourse-sidebar) .full-page-chat {
+  border: none;
+}
+.full-page-chat .main-chat-outlet {
+  @include panel;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.chat-composer__wrapper {
+  border-radius: $panel-radius;
 }

@@ -5,9 +5,15 @@ panel_background:
 panel_border:
   default: "1px solid var(--primary-200)"
 panel_radius:
-  type: integer
-  default: 10
+  type: string
+  default: "10px"
 panel_padding:
   default: "1rem 2rem"
 panel_box_shadow:
   default: "none"
+list_banners:
+  default: true
+  description: "Render panels on tag and category banners"
+sidebar-blocks:
+  default: true
+  description: "Render panels on right sidebar blocks"

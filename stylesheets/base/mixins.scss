@@ -1,8 +1,0 @@
-@mixin panel {
-  box-sizing: border-box;
-  background: $panel-background;
-  border: $panel-border;
-  border-radius: #{$panel-radius}px;
-  padding: $panel-padding;
-  box-shadow: $panel-box-shadow;
-}

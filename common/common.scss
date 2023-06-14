@@ -1,13 +1,20 @@
-// Base
-@import "base/mixins";
+@mixin panel {
+  box-sizing: border-box;
+  background: $panel-background;
+  border: $panel-border;
+  border-radius: $panel-radius;
+  padding: $panel-padding;
+  box-shadow: $panel-box-shadow;
+}
 
-// Layouts
-@import "layouts/site";
-@import "layouts/panels";
+body {
+  background-color: $body-background;
+}
+@if $list-banners == "true" {
+  .list-controls {
+    margin: 0.75rem 0 0 0;
+  }
+}
 
-// Plugins
-@import "plugins/category-banners";
-@import "plugins/tag-banners";
-@import "plugins/extra-banners";
-@import "plugins/chat";
-@import "plugins/right-sidebar-blocks";
+@import "layout";
+@import "element";

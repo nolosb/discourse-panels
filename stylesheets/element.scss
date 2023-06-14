@@ -1,0 +1,59 @@
+// Category banner
+@if $list-banners == "true" {
+  .category-header-widget {
+    .category-title-header {
+      @include panel;
+      background: $panel-background !important; //overwrite inline declaration from component
+      justify-content: left;
+      text-align: left;
+      .category-title-contents {
+        color: var(--primary);
+        max-width: unset;
+        padding: 0;
+        .category-title {
+          justify-content: left;
+        }
+        .category-title-description {
+        }
+      }
+    }
+  }
+}
+
+// Tag banner
+@if $list-banners == "true" {
+  .tag-title-header {
+    @include panel;
+    background: $panel-background !important; //overwrite inline declaration from component
+    justify-content: left;
+    text-align: left;
+    .tag-title-contents {
+      max-width: unset;
+      padding: 0;
+      h1 {
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Extra banner
+@if $list-banners == "true" {
+  .above-main-container-outlet .extra-banner {
+    @include panel;
+    .extra-banner-contents {
+      padding-left: 0;
+    }
+  }
+}
+
+// Right sidebar blocks
+@if $sidebar-blocks == "true" {
+  .tc-right-sidebar {
+    .rs-component {
+      @include panel;
+    }
+  }
+}
