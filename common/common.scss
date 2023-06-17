@@ -6,15 +6,8 @@
   padding: $panel-padding;
   box-shadow: $panel-box-shadow;
 }
-
 body {
   background-color: $body-background;
 }
-@if $list-banners == "true" {
-  .list-controls {
-    margin: 0.75rem 0 0 0;
-  }
-}
-
 @import "layout";
 @import "element";
