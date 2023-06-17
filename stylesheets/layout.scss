@@ -2,7 +2,8 @@
 .users-directory,
 .contents.body-page,
 .container .user-main,
-.docs {
+.docs,
+.reviewable {
   @include panel;
 }
 
