@@ -1,8 +1,10 @@
-// Mobile defaults
-#list-area {
-  padding: 1rem;
+@mixin panel {
+  box-sizing: border-box;
+  background: $panel-background;
+  border: $panel-border;
+  border-radius: $panel-radius;
+  padding: $mobile-padding;
+  box-shadow: $panel-box-shadow;
 }
-
-.archetype-regular #main-outlet-wrapper #main-outlet {
-  padding: 1rem;
-}
+@import "layout";
+@import "element";

@@ -1,1 +1,10 @@
-//
+@mixin panel {
+  box-sizing: border-box;
+  background: $panel-background;
+  border: $panel-border;
+  border-radius: $panel-radius;
+  padding: $desktop-padding;
+  box-shadow: $panel-box-shadow;
+}
+@import "layout";
+@import "element";

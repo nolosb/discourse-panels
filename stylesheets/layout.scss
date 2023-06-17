@@ -28,6 +28,20 @@
     }
   }
 }
+
+//Tags page with adjustments
+.tags-page .all-tag-lists {
+  @include panel;
+  .tags-list:last-of-type {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.tags-page #main-outlet > hr {
+  display: none; //hard-coded line
+}
+
 // Topics
 .archetype-regular {
   #main-outlet-wrapper #main-outlet {

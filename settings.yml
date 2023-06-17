@@ -7,8 +7,10 @@ panel_border:
 panel_radius:
   type: string
   default: "10px"
-panel_padding:
+desktop_padding:
   default: "1rem 2rem"
+mobile_padding:
+  default: "1rem 1rem"
 panel_box_shadow:
   default: "none"
 list_banners:
