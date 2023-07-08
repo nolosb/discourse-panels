@@ -6,7 +6,7 @@ panel_border:
   default: "1px solid var(--primary-200)"
 panel_radius:
   type: string
-  default: "10px"
+  default: "var(--d-border-radius)"
 desktop_padding:
   default: "1rem 2rem"
 mobile_padding:
