@@ -1,21 +1,21 @@
 body_background:
-  default: "var(--primary-50)"
+  default: 'var(--primary-50)'
 panel_background:
-  default: "var(--secondary)"
+  default: 'var(--secondary)'
 panel_border:
-  default: "1px solid var(--primary-200)"
+  default: '1px solid var(--primary-200)'
 panel_radius:
   type: string
-  default: "var(--d-border-radius)"
+  default: 'var(--d-border-radius)'
 desktop_padding:
-  default: "1rem 2rem"
+  default: '1rem 2rem'
 mobile_padding:
-  default: "1rem 1rem"
+  default: '1rem 1rem'
 panel_box_shadow:
-  default: "none"
+  default: 'none'
 list_banners:
   default: true
-  description: "Render panels on tag and category banners"
+  description: 'Render panels on tag and category banners'
 sidebar-blocks:
   default: true
-  description: "Render panels on right sidebar blocks"
+  description: 'Render panels on right sidebar blocks'
