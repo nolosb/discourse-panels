@@ -1,6 +1,7 @@
 // Category banner
 @if $list-banners == 'true' {
-  .category-header-widget {
+  .category-header-widget,
+  .category-header-banner {
     .category-title-header {
       @include panel;
       background: $panel-background !important; //overwrite inline declaration from component
