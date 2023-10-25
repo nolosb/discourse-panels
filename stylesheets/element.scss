@@ -54,3 +54,11 @@
     }
   }
 }
+
+// Versatile showcase
+@if $versatile-showcase == 'true' {
+  .versatile-showcase .col {
+    @include panel;
+    padding-top: 0;
+  }
+}

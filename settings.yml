@@ -16,6 +16,9 @@ panel_box_shadow:
 list_banners:
   default: true
   description: 'Render panels on tag and category banners'
-sidebar-blocks:
+sidebar_blocks:
   default: true
   description: 'Render panels on right sidebar blocks'
+versatile_showcase:
+  default: false
+  description: 'Render panels on versatile showcase lists'
