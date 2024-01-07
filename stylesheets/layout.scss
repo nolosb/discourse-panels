@@ -56,3 +56,9 @@
   box-shadow: none;
   margin-bottom: 1rem;
 }
+
+// Events calendar
+#upcoming-events-calendar {
+  @include panel;
+  margin-top: 0.75rem;
+}
