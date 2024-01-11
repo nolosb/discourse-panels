@@ -55,8 +55,13 @@
   }
 }
 
-// Versatile showcase
-@if $versatile-showcase == 'true' {
+// Versatile Showcase or Featured Lists
+@if $featured_lists == 'true' {
+  .featured-lists__list-container {
+    @include panel;
+    padding-top: 0;
+  }
+  // for backward compatability, also add panels on versatile showcase component
   .versatile-showcase .col {
     @include panel;
     padding-top: 0;

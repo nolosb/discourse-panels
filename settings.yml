@@ -19,6 +19,6 @@ list_banners:
 sidebar_blocks:
   default: true
   description: 'Render panels on right sidebar blocks'
-versatile_showcase:
+featured_lists:
   default: false
-  description: 'Render panels on versatile showcase lists'
+  description: 'Render panels on featured lists component'
