@@ -14,10 +14,10 @@ mobile_padding:
 panel_box_shadow:
   default: 'none'
 list_banners:
-  default: true
+  default: false
   description: 'Render panels on tag and category banners'
 sidebar_blocks:
-  default: true
+  default: false
   description: 'Render panels on right sidebar blocks'
 featured_lists:
   default: false
