@@ -2,8 +2,11 @@
 .users-directory,
 .contents.body-page,
 .container .user-main,
+.container.groups-index,
+.container.badges,
 .docs,
-.reviewable {
+.reviewable,
+.boxed.white.admin-content {
   @include panel;
 }
 
@@ -14,18 +17,6 @@
   .search-filters,
   .search-filters .search-advanced-filters {
     background: transparent;
-  }
-}
-
-// Body classes
-.admin-interface,
-.badges-page,
-.groups-page {
-  #main-outlet {
-    // Render panels on sub-container, else notification banners are within the panel
-    .container:not(#main-container) {
-      @include panel;
-    }
   }
 }
 
